@@ -1,0 +1,41 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.container
+{
+  width:1170px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+/* Start navbar */
+
+.filter input
+{ 
+  margin-right: 50px;
+}
+.add-movie
+{
+  background-color: rgb(0, 0, 163);
+  color:white;
+  padding:5px 10px;
+  text-decoration: none;
+}
+.add-movie:hover
+{
+  color:white;
+}
+/* End navbar */
+
+/* Start Movie cart */
+.movie-cart
+{
+  padding:50px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Start Movie cart */
